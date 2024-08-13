@@ -1,0 +1,68 @@
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: #FFF;
+    padding: 3rem 1rem;
+    margin: 0;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+
+.content-header .header-title {
+    display: flex;
+    align-items: center;
+}
+
+.content-header .header-title h1 {
+    font-size: 1.8rem;
+    color: #222;
+    font-weight: normal;
+}
+
+.content-header .header-title h3 {
+    padding: 0 0.6rem;
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: normal;
+}
+
+.content-header .header-breadcrumb ul {
+    display: flex;
+    gap: 10px;
+}
+
+.content-header .header-breadcrumb ul li a {
+    text-decoration: none;
+    color: #666;
+}
+
+.content-header .header-breadcrumb ul li.ico-home:before {
+    content: "\f015";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 0.6rem;
+    color: #666;
+}
+
+.content-header .header-breadcrumb ul li:after {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding: 0.2rem 0 0 0.6rem;
+}
+
+.content-header .header-breadcrumb ul li:last-child:after {
+    content: "";
+}
+
+@media(max-width:456px){
+    .content-header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-breadcrumb{
+        margin-top: 1rem;
+    }
+}

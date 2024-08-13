@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url('assets/bg.png') repeat top left;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+
+main{
+  min-height: 60vh;
+}
+
+.grid{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-top: 1rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+select {
+  border: 1px solid #f5efef;
+  padding: 0.6rem 0.5rem;
+  width: 100%;
+}
+
+::placeholder{
+  color: #666;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.error-message {
+  color: rgb(255, 72, 72);
+  font-size: 0.75rem;
+  margin-top: 8px;
+}
+
+@media(max-width: 465px){
+  .grid{
+    flex-direction: column;
+  }
+}
+

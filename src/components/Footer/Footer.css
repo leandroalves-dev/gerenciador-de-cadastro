@@ -1,0 +1,13 @@
+.content-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dbd8d8;
+    height: 200px;
+}
+
+
+.content-footer address{
+    font-style: normal;
+    color: #666;
+}
