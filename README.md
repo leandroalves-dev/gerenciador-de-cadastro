@@ -1,5 +1,14 @@
 # React + TypeScript + Vite
 
+Esse projeto foi usado os seguintes pacotes:
+- Bcrypt
+- react-hook-form
+- validator
+
+Os dados cadastrados, estão armazenados no localStorage
+
+-----------------------------------------------------------------------
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
