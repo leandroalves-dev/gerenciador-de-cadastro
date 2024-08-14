@@ -22,7 +22,7 @@ const Modal = ({ data, onClose}: PropsModal) => {
                     <li><strong>E-mail: </strong>{data.email}</li>
                     <li><strong>Sexo: </strong>{data.gender}</li>
                     <li><strong>Data de Nascimento: </strong>{new Date(data.birthDate).toLocaleDateString('pt-BR')}</li>
-                    <li><strong>Área de Atualiação: </strong>{data.area}</li>
+                    <li><strong>Área de Atuação: </strong>{data.area}</li>
                   </ul>
                   <div className='msg'>
                     <span className='admin'>{data.admin === true ? `É administrador${data.gender === 'Feminino' ? 'a' : ''} da conta` : `Não é administrador${data.gender === 'Feminino' ? 'a' : ''} da conta`}</span>
