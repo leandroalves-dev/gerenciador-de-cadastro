@@ -1,39 +1,29 @@
-# React + TypeScript + Vite
+# Meu Projeto
 
-Esse projeto foi usado os seguintes pacotes:
-- Bcrypt
-- react-hook-form
-- validator
+Este é um sistema de cadastro de usuário. Onde permite fazer o cadastro do usuário com informações pessoais, cargo, foto e se é administrador ou não. 
 
-Os dados cadastrados, estão armazenados no localStorage
+As informações cadastradas são armazenadas no localStorage. E foi usado bcryptjs para criptografar senhas de forma segura
 
------------------------------------------------------------------------
+## Tecnologias usadas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat&logo=javascript&logoColor=white) 
+- ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) 
+- ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
+- ![Axios Badge](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)
+- ![Responsivo](https://img.shields.io/badge/Responsivo-Sim-00C853?style=for-the-badge&logo=responsive&logoColor=white)  
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Como rodar o projeto
 
-## Expanding the ESLint configuration
+1. Clone este repositório:
+   ```bash
+    git clone https://github.com/leandroalves-dev/gerenciador-de-cadastro
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Instale as dependências:
+   ```bash
+   npm install
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. Rode o projeto
+    ```bash
+    npm run dev
