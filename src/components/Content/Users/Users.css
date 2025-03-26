@@ -17,7 +17,7 @@
 .content-list .list{
     width: 100%;
     margin-bottom: 1.5rem;
-    max-width: 300px;
+    max-width: 170px;
 }
 
 .content-list .list .info{
@@ -25,6 +25,10 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 0.6rem;
+}
+
+.content-list .list .info p{
+    font-size: 12px;    
 }
 
 .content-list .list .icons i{
@@ -42,7 +46,7 @@
     background: #e9e4e4;
     padding: 0.3rem;
     width: 100%;
-    min-height: 300px;
+    min-height: 170px;
     object-fit: cover;
 }
 
@@ -64,7 +68,7 @@
 .no-photo{
     display: flex;
     background: #e9e4e4;
-    min-height: 300px;
+    min-height: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +90,15 @@ button{
 
 @media(max-width:980px){
     .content-list .list{
-        width: 95%;
+        max-width: inherit;
+    }
+
+    .no-photo{
+        height: 87%;
+    }
+
+    .show-users .users{
+        min-height: auto;
         max-width: inherit;
     }
 }
