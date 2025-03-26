@@ -60,9 +60,21 @@ select {
   margin-top: 8px;
 }
 
-@media(max-width: 465px){
-  .grid{
-    flex-direction: column;
-  }
+
+@media(max-width:700px){
+
+    .content-header{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .content-list .list{
+        width: 100%;
+    }
 }
 

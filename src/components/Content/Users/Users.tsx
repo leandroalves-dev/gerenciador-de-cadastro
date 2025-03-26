@@ -21,7 +21,14 @@ const Users = ({results, onEdit, onModal, onDelete}: PropsUser) => {
                 <div className='content-list'>
                     {results.map((item, index) => (
                         <div className='list' key={index}>
-                            <p><img src={item.photo!} alt="" /></p> 
+                            {item.photo ? (
+                                <img src={item.photo} alt="" />
+                            ):(
+                                <div className='no-photo'>
+                                    Sem Foto
+                                </div>
+                            )}
+                            
                             <div className="info">
                                 <p>{item.name}</p>
                                 <div className="icons">

@@ -42,6 +42,8 @@
     background: #e9e4e4;
     padding: 0.3rem;
     width: 100%;
+    min-height: 300px;
+    object-fit: cover;
 }
 
 .btns{
@@ -59,6 +61,15 @@
     color: #FFF;
 }
 
+.no-photo{
+    display: flex;
+    background: #e9e4e4;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 button{
     background: none;
     border: 0;
@@ -73,8 +84,10 @@ button{
     }
 }
 
-@media(max-width:784px){
+@media(max-width:980px){
     .content-list .list{
-        width: 100%;
+        width: 95%;
+        max-width: inherit;
     }
 }
+
