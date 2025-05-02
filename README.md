@@ -2,7 +2,7 @@
 
 Este projeto é um sistema completo de cadastro de usuários, que permite o gerenciamento de informações pessoais de forma prática e segura.
 
-##Funcionalidades:
+## Funcionalidades:
 
 Cadastro de usuários com:
 
