@@ -1,7 +1,7 @@
 
 {
   "homepage": "https://leandroeffgen8.github.io/gerenciador-de-cadastro",
-  "name": "gerenciador_de_cadastro",
+  "name": "gerenciador_cadastro",
   "private": true,
   "version": "0.0.0",
   "type": "module",
