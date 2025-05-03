@@ -4,7 +4,7 @@
 
 .listResults h2{
     text-align: center;
-    color: #333;
+    color: #FFF;
     font-weight: normal;
 }
 
@@ -29,13 +29,16 @@
 
 .content-list .list .info p{
     font-size: 12px;    
+    color: #7c7c7c;
+    width: 100px;
 }
 
 .content-list .list .icons i{
-    margin: 0 0.3rem;
+    margin: 0 0.2rem;
     cursor: pointer;
     opacity: 0.3;
     transition: 0.3s;
+    color: #7c7c7c;
 }
 
 .content-list .list .icons i:hover{
@@ -43,7 +46,7 @@
 }
 
 .content-list .list img{
-    background: #e9e4e4;
+    background: #1b1b1b;
     padding: 0.3rem;
     width: 100%;
     min-height: 170px;

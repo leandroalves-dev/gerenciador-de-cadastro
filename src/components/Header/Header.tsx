@@ -11,7 +11,6 @@ const Header = () => {
                 <li className="ico-home">
                     <a href="#">Home</a>
                 </li>
-                {/* <li>Usuários</li> */}
             </ul>
         </div>
     </header>

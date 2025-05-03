@@ -3,10 +3,10 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
-    background-color: #FFF;
+    background-color: #101010;
     padding: 3rem 1rem;
     margin: 0;
-    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 4px rgba(0,0,0,0.1);
 }
 
 .content-header .header-title {
@@ -14,16 +14,9 @@
     align-items: center;
 }
 
-.content-header .header-title h1 {
-    font-size: 1.8rem;
-    color: #222;
-    font-weight: normal;
-}
-
-.content-header .header-title h3 {
-    padding: 0 0.6rem;
-    font-size: 1.2rem;
-    color: #666;
+.content-header .header-title h2 {
+    font-size: 1.4rem;
+    color: #FFF;
     font-weight: normal;
 }
 
@@ -34,7 +27,7 @@
 
 .content-header .header-breadcrumb ul li a {
     text-decoration: none;
-    color: #666;
+    color: #FFF;
 }
 
 .content-header .header-breadcrumb ul li.ico-home:before {
@@ -42,7 +35,7 @@
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     padding-right: 0.6rem;
-    color: #666;
+    color: #FFF;
 }
 
 .content-header .header-breadcrumb ul li:after {

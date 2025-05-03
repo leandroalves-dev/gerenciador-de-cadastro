@@ -1,31 +1,32 @@
 
 
 .container-register{
-    background: #FFF;
+    background: #0b0b0b;
     padding: 1.5rem 2.5rem;
     border-top: 3px solid rgb(148, 206, 225);
     border-radius: 5px 5px 0 0;
+    width: 350px;
 }
 
 .container-register.edit{
-    background: #0df40029;
+    background: rgb(148, 206, 225);
 }
 
 .container-register.edit button{
-    background-color: #0df40029;
-    border-color: rgb(177 231 181);
+    background-color: rgb(148, 206, 225);
 }
 
 .container-register h2{
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    color: rgb(148, 206, 225);
 }
 
 .container-register label{
-    color: #333;
+    color: rgb(82 122 136);
+    font-size: 1rem;
     margin: 1rem 0 0.5rem;
     display: block;
-    font-weight: bold;
 }
 
 .container-register .block{
@@ -50,11 +51,10 @@
 }
 
 .btn-sucsess{
-    background: lightblue;
+    background: rgb(148, 206, 225);
     text-transform: uppercase;
-    border: 1px solid rgb(154, 189, 200);
     padding: 0.8rem 2.5rem;
-    color: rgb(57, 102, 117);
+    color: #101010;
     cursor: pointer;
     transition: 0.3s;
     margin: 0;
@@ -143,4 +143,30 @@
     border-radius: 2px 2px 0 0;
     background-color: #FFF;
     padding: 1rem;
+}
+
+.container-register.edit input[type="text"],
+.container-register.edit input[type="password"],
+.container-register.edit input[type="date"],
+.container-register.edit select,
+.container-register.edit .custom-file-label{
+    background-color: rgb(127 180 197);
+    border: 0
+}
+
+.container-register.edit h2,
+.container-register.edit label {
+    color: #0b0b0b;
+}
+
+
+.container-register.edit .btn-sucsess{
+    background: #0b0b0b;
+    color: rgb(127 180 197);
+}
+
+@media(max-width:700px){
+    .container-register{
+        width: 100%;
+    }
 }

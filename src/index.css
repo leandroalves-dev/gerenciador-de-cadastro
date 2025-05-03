@@ -5,7 +5,7 @@
 }
 
 body{
-  background: url('assets/bg.png') repeat top left;
+  background: #101010;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
 }
@@ -40,14 +40,37 @@ select:focus {
 input[type="text"],
 input[type="password"],
 input[type="date"],
-select {
-  border: 1px solid #f5efef;
-  padding: 0.6rem 0.5rem;
+select,
+.file {
+  border: 1px solid #1a1a1a;
+  background: #101010;
+  color: #494646; 
+  padding: 0.9rem;
   width: 100%;
 }
 
+.arquivo input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    top: 26px;
+    height: 47px;
+}
+  
+.custom-file-label{
+    cursor: pointer;
+    border: 1px solid #1a1a1a;
+    background: #101010;
+    color: #494646; 
+    padding: 0.9rem;
+    font-size: 0.85rem;
+}
+
+.arquivo{
+    position: relative;
+}
+
 ::placeholder{
-  color: #666;
+  color: #494646; 
 }
 
 .container {
@@ -73,5 +96,11 @@ select {
         flex-direction: column-reverse;
     }
 
+    .header-breadcrumb{
+        display: none;
+    }
+
 }
+
+
 

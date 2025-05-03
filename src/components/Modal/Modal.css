@@ -18,10 +18,9 @@
   }
   
   .modal-content {
-    background-color: #fefefe;
+    background-color: #0b0b0b;
     margin: 5% auto;
     padding: 40px 20px;
-    border: 1px solid #888;
     width: 100%;
     max-width: 600px; 
     border-radius: 5px;
@@ -43,6 +42,7 @@
 
   .modal-content .content ul li{
     margin-bottom: 0.5rem;
+    color: rgb(82 122 136);
   }
 
   .modal-content .content .msg{
@@ -70,7 +70,7 @@
   
   .close:hover,
   .close:focus {
-    color: #b7e669;
+    color: #231478;
     text-decoration: none;
     cursor: pointer;
   }

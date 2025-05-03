@@ -181,9 +181,12 @@ const Forms = () => {
                                         {errors.password?.type === 'required' && <p className="error-message">A senha é obrigatória.</p>}
                                         {errors.password?.type === 'minLength' && <p className="error-message">A senha precisa ter no minímo 5 caracteres.</p>}
                                 </div>
-                                <div className="form-group">
+                                <div className="form-group arquivo">
                                     <label>Foto</label>
-                                    <input type="file" {...register("photo") }  />
+                                    <div className='inputFile'>
+                                        <div className="custom-file-label">Escolha um arquivo</div>
+                                        <input type="file" {...register("photo") }  />
+                                    </div>
                                     {preview && (
                                         <div className='box-preview'>
                                             <div className='img-preview'>
